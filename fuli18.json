@@ -19,7 +19,13 @@
 {"host":"*","rule":["huoshan.com","/item/video/"]},
 {"host":"*","rule":["http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*"]},
 {"host":"*","rule":["http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"]}],       
-  "sites": [ 
+  "sites": [
+	  {"key":"yaya","name":"雅雅","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/json/yaya.json","jar":"https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/jar/fan.jar;md5;65cfb7372116b05de2fa2041aeb16252"},
+{"key":"bttcj.com","name":"成人03","type":0,"api":"http://bttcj.com/inc/sapi.php","searchable":1},
+{"key":"secj8.com","name":"成人07","type":0,"api":"http://secj8.com/inc/sapi.php?ac=videolist","searchable":1},
+{"key":"ggmmzy.com","name":"成人13","type":0,"api":"http://www.ggmmzy.com:9999/inc/xml","searchable":1},
+{"key":"fhapi9.com","name":"🐞🐞🐞🐞成人14","type":1,"api":"http://fhapi9.com/api.php/provide/vod/","searchable":1},
+	  
 {"key":"csp_GitCafe"       ,"name":"🐞小纸条","type":3,"api":"csp_GitCafe","searchable":1,"quickSearch":1,"filterable": 1},  
 {"key":"csp_AliPanSou"     ,"name":"🐞云喵搜📵","type":3,"api":"csp_AliPanSou","searchable":1,"quickSearch":1,"filterable": 1},
 {"key":"ck","name":"🎀CK资源","type":0,"api":"https://ckzy.me/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":0,"jar":"https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/jar/0820.jar"},
