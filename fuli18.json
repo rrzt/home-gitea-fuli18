@@ -4,15 +4,9 @@
 
 ###
 {
-    //"spider": " https://raw-gh.gcdn.mirr.one/rrzt/TVBOXJIA/main/custom_spider0626.jar",
-    //"spider": " https://raw-gh.gcdn.mirr.one/rrzt/TVBOXJIA/main/custom_spider20.jar",
-     //"spider": " https://raw-gh.gcdn.mirr.one/rrzt/TVBOXJIA/main/custom_spider.jar",
-    // "spider": " https://raw-gh.gcdn.mirr.one/rrzt/TVBOXJIA/main/custom_spider2207.jar",
-  // "spider": " https://raw-gh.gcdn.mirr.one/rrzt/TVBOXJIA/main/spider2207.jar",
- //  "spider": "https://gitee.com/rrzt188/home/raw/master/spider2207.jar",
-//	"spider":"https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/jar/2915.jar",
-  "spider":"https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/jar/1025.jar",
-  //"spider":"https://raw-gh.gcdn.mirr.one/liu673cn/box/main/jar/spider2207.jar;md5;727C472F6F06E2958FF50FBD0C2AAE21",
+   
+//  "spider":"https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/jar/1025.jar",
+	"spider":"https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/jar/custom_spider18.jar;md5;d81491287f85debfc69e10a2ec775b4d",
      "lives": [{"group": "redirect","channels": [{"name": "redirect","urls": ["proxy://do=live&type=txt&ext=https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/zhibo/TV18.TXT"]}]}],
 
 "rules":[{"host":"*","rule":["iesdouyin.com/aweme","video_id="]},
@@ -20,6 +14,7 @@
 {"host":"*","rule":["http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*"]},
 {"host":"*","rule":["http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"]}],       
   "sites": [
+	  {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":{"drives":[{"name":"AV","server":"https://a74d291e-3b91-45a5-9ec6-9f08a9178e59.id.repl.co"}]}},
 	  {"key":"yaya","name":"雅雅","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/json/yaya.json","jar":"https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/jar/fan.jar;md5;65cfb7372116b05de2fa2041aeb16252"},
 {"key":"api.apilyzy.com","name":"🐞🐞🐞🐞成人62","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/","searchable":1},
 {"key":"bttcj.com","name":"成人03","type":0,"api":"http://bttcj.com/inc/sapi.php","searchable":1},
